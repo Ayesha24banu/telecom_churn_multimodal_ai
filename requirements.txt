@@ -5,7 +5,8 @@ scipy==1.15.3
 joblib==1.5.2 
 # ===== Visualization ===== 
 matplotlib==3.10.7 
-seaborn==0.13.2 plotly # (For interactive dashboards in app.py) 
+seaborn==0.13.2
+plotly # (For interactive dashboards in app.py) 
 shap # SHAP Explainability for ML models 
 # ===== NLP =====
 vaderSentiment==3.3.2
@@ -16,7 +17,8 @@ scikit-learn==1.7.2
 xgboost==3.1.0 
 # ===== Deep Learning ===== 
 tensorflow==2.14.0 
-keras==2.14.0 # WEB APP (Streamlit) 
+keras==2.14.0 
+# WEB APP (Streamlit) 
 streamlit 
 streamlit-option-menu # sidebar navigation 
 streamlit-authenticator # login + role-based access 
