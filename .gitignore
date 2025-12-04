@@ -18,15 +18,9 @@ ENV/
 # Jupyter Notebook Checkpoints
 */.ipynb_checkpoints/
 
-# MODEL + TRAINING ARTIFACTS
-models/*.pkl
-models/*.h5
-models/*.joblib
-models/*.pt
-models/*.json
-models/tfidf_vectorizer.pkl
-models/label_encoders.pkl
-models/tfidf_features.json
+# ALLOW models folder
+!models/
+!models/*
 
 # Keep ONLY these in GitHub  
 !models/models_evaluation/*
