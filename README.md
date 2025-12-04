@@ -5,7 +5,7 @@
 ![XGBoost](https://img.shields.io/badge/ML-XGBoost-green)
 ![TensorFlow](https://img.shields.io/badge/DL-TensorFlow-red)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+![License](https://img.shields.io/badge/license-RA--License-blue)
 
 ### 🔍 An End-to-End Multimodal AI System for **Customer Churn Prediction** & **Sentiment Analysis**
 
