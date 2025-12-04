@@ -1,0 +1,64 @@
+# Bytecode / Cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+src/__pycache__/
+src/.ipynb_checkpoints/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+env/
+telco_env/
+.venv/
+ENV/
+
+# Jupyter Notebook Checkpoints
+*/.ipynb_checkpoints/
+
+# MODEL + TRAINING ARTIFACTS
+models/*.pkl
+models/*.h5
+models/*.joblib
+models/*.pt
+models/*.json
+models/tfidf_vectorizer.pkl
+models/label_encoders.pkl
+models/tfidf_features.json
+
+# Keep ONLY these in GitHub  
+!models/models_evaluation/*
+!models/models_visuals/*
+
+# LOGS & DATABASE
+logs/*.log
+outputs/prediction_history.db
+*.db    
+
+#  OUTPUT / TEMP FILES
+outputs/models_visuals/__*
+outputs/data/temp/
+outputs/models_evaluation/temp/
+outputs/*.csv
+outputs/*.xlsx
+outputs/*.json
+outputs/*.txt
+
+# Allow FINAL FILES to be tracked
+!outputs/models_visuals/**/*.png
+!outputs/models_evaluation/*.json
+!outputs/dl_training_log.csv
+
+# CONFIG / CREDENTIALS
+config.yaml
+*.env
+.env
+credentials.json
+
+# SYSTEM / OS FILES
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

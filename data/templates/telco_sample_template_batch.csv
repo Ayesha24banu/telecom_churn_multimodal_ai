@@ -1,0 +1,101 @@
+customer_id,gender,SeniorCitizen,Partner,Dependents,Contract,InternetService,PaymentMethod,PaperlessBilling,tenure,MonthlyCharges,TotalCharges,is_high_value_customer,is_new_customer,CustomerFeedback
+1001,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,2,96.5,193,High Value,New,Speed is extremely slow and outages happen daily. Very frustrating.
+1002,Male,Yes,No,No,Two year,DSL,Credit card (automatic),No,68,42.5,2890,Regular,Existing,Service has been excellent for years. Very reliable.
+1003,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,1,90.2,90.2,High Value,New,Internet keeps disconnecting and support is not helpful.
+1004,Male,Yes,No,No,One year,DSL,Mailed check,No,22,39.5,869,Regular,Existing,Good stable service so far.
+1005,Female,No,No,No,Month-to-month,Fiber optic,Electronic check,Yes,3,102.1,306.3,High Value,New,Too expensive for the speed provided. Not satisfied.
+1006,Male,No,Yes,Yes,Two year,DSL,Credit card (automatic),No,72,32.9,2368.8,Regular,Existing,Very happy with long-term plan and support.
+1007,Female,Yes,No,No,Month-to-month,Fiber optic,Electronic check,Yes,10,98.6,986,High Value,Existing,Internet slows down every evening. Annoying.
+1008,Male,Yes,No,No,One year,DSL,Bank transfer (automatic),No,16,36.2,579.2,Regular,Existing,Good service overall for the price.
+1009,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,4,92.7,370.8,High Value,New,Speed drops very often and affects work.
+1010,Male,Yes,No,No,Two year,DSL,Credit card (automatic),No,48,44.1,2116.8,Regular,Existing,Very consistent and smooth browsing speed.
+1011,Female,No,No,No,Month-to-month,Fiber optic,Electronic check,Yes,6,101.4,608.4,High Value,New,Not satisfied with customer service delays.
+1012,Male,No,Yes,No,One year,DSL,Mailed check,No,27,34.8,939.6,Regular,Existing,Good network performance.
+1013,Female,Yes,No,Yes,Month-to-month,Fiber optic,Electronic check,Yes,5,99.8,499,High Value,New,Service is unstable and overpriced.
+1014,Male,Yes,No,No,Two year,DSL,Credit card (automatic),No,56,45.7,2559.2,Regular,Existing,Very reliable and no issues so far.
+1015,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,3,94.5,283.5,High Value,New,Frequent interruptions making it unusable.
+1016,Male,No,No,No,One year,DSL,Bank transfer (automatic),No,34,35.9,1220.6,Regular,Existing,Good for streaming and browsing.
+1017,Female,Yes,No,Yes,Month-to-month,Fiber optic,Electronic check,Yes,8,103.2,825.6,High Value,Existing,Thinking of switching due to slow speeds.
+1018,Male,Yes,No,No,Two year,DSL,Mailed check,No,70,43.4,3038,Regular,Existing,Works perfectly for my daily usage.
+1019,Female,No,No,No,Month-to-month,Fiber optic,Electronic check,Yes,7,96.7,676.9,High Value,New,Very disappointed with speed performance.
+1020,Male,No,Yes,No,One year,DSL,Credit card (automatic),No,18,32.2,579.6,Regular,Existing,Service is smooth and reliable.
+1021,Female,Yes,No,No,Month-to-month,Fiber optic,Electronic check,Yes,12,109.8,1317.6,High Value,Existing,Billing mistakes happening again and again.
+1022,Male,Yes,No,No,Two year,DSL,Mailed check,No,62,41.8,2591.6,Regular,Existing,Long-term plan is very stable.
+1023,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,3,87.5,262.5,High Value,New,Speed lower than promised. Not happy.
+1024,Male,No,No,No,One year,DSL,Credit card (automatic),No,25,38.6,965,Regular,Existing,Good and steady internet.
+1025,Female,Yes,No,Yes,Month-to-month,Fiber optic,Electronic check,Yes,9,102.4,921.6,High Value,Existing,Overpriced for what I get.
+1026,Male,Yes,No,No,Two year,DSL,Bank transfer (automatic),No,52,47.5,2470,Regular,Existing,Service reliability is excellent.
+1027,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,6,99.3,595.8,High Value,New,Unhappy with internet dropping randomly.
+1028,Male,No,No,No,One year,DSL,Mailed check,No,22,33.9,745.8,Regular,Existing,Good internet for basic usage.
+1029,Female,Yes,No,No,Month-to-month,Fiber optic,Electronic check,Yes,4,92.9,371.6,High Value,New,Experiencing frequent slowdowns.
+1030,Male,Yes,No,No,Two year,DSL,Credit card (automatic),No,58,44.2,2563.6,Regular,Existing,Smooth and consistent service.
+1031,Female,No,Yes,Yes,Month-to-month,Fiber optic,Electronic check,Yes,11,98.4,1082.4,High Value,Existing,Customer care never responds on time and issues remain unresolved.
+1032,Male,No,No,No,One year,DSL,Mailed check,No,30,36.7,1101,Regular,Existing,Good connection stability and responsive support.
+1033,Female,Yes,No,No,Month-to-month,Fiber optic,Electronic check,Yes,2,87.6,175.2,High Value,New,Internet drops every hour making it unusable.
+1034,Male,Yes,No,No,Two year,DSL,Credit card (automatic),No,72,43.2,3110.4,Regular,Existing,Very reliable and consistent for the long term.
+1035,Female,No,No,No,Month-to-month,Fiber optic,Electronic check,Yes,4,92.9,371.6,High Value,New,Charges are too high compared to service quality.
+1036,Male,No,No,No,One year,DSL,Bank transfer (automatic),No,28,34.5,966,Regular,Existing,Good value and stable enough for browsing.
+1037,Female,Yes,No,No,Month-to-month,Fiber optic,Electronic check,Yes,9,101.8,916.2,High Value,Existing,Experiencing slow speeds every evening.
+1038,Male,Yes,No,No,Two year,DSL,Mailed check,No,67,42.8,2867.6,Regular,Existing,Very smooth performance across all devices.
+1039,Female,No,Yes,Yes,Month-to-month,Fiber optic,Electronic check,Yes,6,94.6,567.6,High Value,New,Billing mistakes and slow speed issues.
+1040,Male,No,No,No,One year,DSL,Credit card (automatic),No,22,32.9,723.8,Regular,Existing,Good service quality overall.
+1041,Female,Yes,No,No,Month-to-month,Fiber optic,Electronic check,Yes,10,96.8,968,High Value,New,Frequent buffering and slow signals.
+1042,Male,Yes,No,No,Two year,DSL,Bank transfer (automatic),No,50,47.3,2365,Regular,Existing,Excellent connectivity and very stable.
+1043,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,3,88.4,265.2,High Value,New,Very disappointed with frequent dropouts.
+1044,Male,No,No,No,One year,DSL,Mailed check,No,35,38.2,1337,Regular,Existing,Everything works as expected.
+1045,Female,Yes,No,No,Month-to-month,Fiber optic,Electronic check,Yes,2,87.8,175.6,High Value,New,Service is very poor and unstable.
+1046,Male,Yes,No,No,Two year,DSL,Credit card (automatic),No,46,41.5,1909,Regular,Existing,No issues encountered so far.
+1047,Female,No,Yes,Yes,Month-to-month,Fiber optic,Electronic check,Yes,12,102.6,1231.2,High Value,Existing,Not happy with overall performance.
+1048,Male,No,No,No,One year,DSL,Bank transfer (automatic),No,29,34.8,1009.2,Regular,Existing,Good quality for daily use.
+1049,Female,Yes,No,No,Month-to-month,Fiber optic,Electronic check,Yes,7,93.1,651.7,High Value,New,Speed completely drops during nights.
+1050,Male,Yes,No,No,Two year,DSL,Mailed check,No,62,43.9,2721.8,Regular,Existing,Very reliable connection.
+1051,Female,No,No,No,Month-to-month,Fiber optic,Electronic check,Yes,5,92.5,462.5,High Value,New,Unstable internet almost every day.
+1052,Male,Yes,No,No,Two year,DSL,Credit card (automatic),No,78,30.1,2347.8,Regular,Existing,Stable and smooth connectivity.
+1053,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,8,96.4,771.2,High Value,New,Ongoing slow speed issues.
+1054,Male,No,No,No,One year,DSL,Bank transfer (automatic),No,31,36.1,1119.1,Regular,Existing,Good experience overall.
+1055,Female,Yes,No,Yes,Month-to-month,Fiber optic,Electronic check,Yes,11,104.4,1148.4,High Value,Existing,Billing errors are very frequent.
+1056,Male,Yes,No,No,Two year,DSL,Mailed check,No,65,42.4,2756,Regular,Existing,Very happy with the service quality.
+1057,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,7,95.1,665.7,High Value,New,Internet is too slow for the amount charged.
+1058,Male,No,No,No,One year,DSL,Credit card (automatic),No,25,33.8,845,Regular,Existing,Satisfied with performance.
+1059,Female,Yes,No,No,Month-to-month,Fiber optic,Electronic check,Yes,3,91.2,273.6,High Value,New,Constant disconnects making it frustrating.
+1060,Male,Yes,No,No,Two year,DSL,Bank transfer (automatic),No,58,45.2,2621.6,Regular,Existing,No complaints with the service.
+1061,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,4,97.8,391.2,High Value,New,Too many outages recently and slow technician response.
+1062,Male,No,No,No,One year,DSL,Mailed check,No,27,35.4,955.8,Regular,Existing,Internet speed is consistent and reliable.
+1063,Female,Yes,No,Yes,Month-to-month,Fiber optic,Electronic check,Yes,6,101.3,607.8,High Value,New,Service drops frequently making work impossible.
+1064,Male,Yes,No,No,Two year,DSL,Credit card (automatic),No,73,41.6,3036.8,Regular,Existing,Very smooth performance with no issues.
+1065,Female,No,No,No,Month-to-month,Fiber optic,Electronic check,Yes,2,89.7,179.4,High Value,New,Speeds are far lower than what was promised.
+1066,Male,No,No,No,One year,DSL,Bank transfer (automatic),No,33,37.2,1227.6,Regular,Existing,Good connection for everyday use.
+1067,Female,Yes,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,10,98.9,989,High Value,Existing,Internet fluctuates during peak hours.
+1068,Male,Yes,No,No,Two year,DSL,Mailed check,No,68,44.1,2998.8,Regular,Existing,Very pleased with the speed and stability.
+1069,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,5,94.3,471.5,High Value,New,Frequent billing errors and slow customer support.
+1070,Male,No,No,No,One year,DSL,Credit card (automatic),No,21,31.9,669.9,Regular,Existing,Good experience overall.
+1071,Female,Yes,No,No,Month-to-month,Fiber optic,Electronic check,Yes,7,96.1,672.7,High Value,New,Internet keeps disconnecting during calls.
+1072,Male,Yes,No,No,Two year,DSL,Bank transfer (automatic),No,59,43.5,2566.5,Regular,Existing,No issues for several years.
+1073,Female,No,Yes,Yes,Month-to-month,Fiber optic,Electronic check,Yes,9,101.7,915.3,High Value,Existing,Not satisfied with speed consistency.
+1074,Male,No,No,No,One year,DSL,Mailed check,No,32,36.8,1177.6,Regular,Existing,Service is smooth and dependable.
+1075,Female,Yes,No,No,Month-to-month,Fiber optic,Electronic check,Yes,3,88.9,266.7,High Value,New,Very slow uploads and frequent lags.
+1076,Male,Yes,No,No,Two year,DSL,Credit card (automatic),No,70,42.6,2982,Regular,Existing,Excellent experience.
+1077,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,11,102.1,1123.1,High Value,Existing,Unstable speed especially in evenings.
+1078,Male,No,No,No,One year,DSL,Bank transfer (automatic),No,24,33.5,804,Regular,Existing,Good service.
+1079,Female,Yes,No,No,Month-to-month,Fiber optic,Electronic check,Yes,6,92.8,556.8,High Value,New,Very disappointing performance.
+1080,Male,Yes,No,No,Two year,DSL,Mailed check,No,61,45.6,2771.6,Regular,Existing,Connection works perfectly.
+1081,Female,No,Yes,Yes,Month-to-month,Fiber optic,Electronic check,Yes,8,97.5,780,High Value,New,Speed frequently drops without reason.
+1082,Male,No,No,No,One year,DSL,Credit card (automatic),No,26,35.2,915.2,Regular,Existing,Good internet stability.
+1083,Female,Yes,No,No,Month-to-month,Fiber optic,Electronic check,Yes,5,93.9,469.5,High Value,New,Connection issues almost every day.
+1084,Male,Yes,No,No,Two year,DSL,Bank transfer (automatic),No,54,41.8,2257.2,Regular,Existing,Service has been excellent.
+1085,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,12,103.2,1238.4,High Value,Existing,High charges and unstable speeds.
+1086,Male,No,No,No,One year,DSL,Mailed check,No,29,36.5,1058.5,Regular,Existing,Works fine for daily needs.
+1087,Female,Yes,No,No,Month-to-month,Fiber optic,Electronic check,Yes,4,90.8,363.2,High Value,New,Frequent slowdowns especially during peak hours.
+1088,Male,Yes,No,No,Two year,DSL,Credit card (automatic),No,66,44.2,2917.2,Regular,Existing,Very reliable connection.
+1089,Female,No,Yes,Yes,Month-to-month,Fiber optic,Electronic check,Yes,7,95.4,667.8,High Value,Existing,Ongoing connectivity issues.
+1090,Male,No,No,No,One year,DSL,Bank transfer (automatic),No,20,32.8,656,Regular,Existing,Satisfied with the service.
+1091,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,5,94.7,473.5,High Value,New,Frequent disconnections during online meetings.
+1092,Male,Yes,No,No,Two year,DSL,Bank transfer (automatic),No,62,43.9,2715.8,Regular,Existing,Very stable and reliable over the years.
+1093,Female,No,No,No,One year,DSL,Mailed check,No,25,34.8,870,Regular,Existing,Service is good and consistent.
+1094,Male,No,No,No,Month-to-month,Fiber optic,Electronic check,Yes,3,97.2,291.6,High Value,New,Speed keeps dropping randomly.
+1095,Female,Yes,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,9,102.6,923.4,High Value,Existing,Ongoing buffering issues.
+1096,Male,No,No,No,Two year,DSL,Credit card (automatic),No,71,42.7,3031.7,Regular,Existing,Connection works perfectly.
+1097,Female,No,No,No,Month-to-month,Fiber optic,Electronic check,Yes,6,90.5,543,High Value,New,Very slow upload speeds.
+1098,Male,Yes,No,No,One year,DSL,Bank transfer (automatic),No,28,37.4,1047.2,Regular,Existing,Happy with the service.
+1099,Female,No,Yes,No,Month-to-month,Fiber optic,Electronic check,Yes,4,92.1,368.4,High Value,New,Frequent outages with no clear explanation.
+1100,Male,No,No,No,Two year,DSL,Mailed check,No,67,44.4,2974.8,Regular,Existing,Internet has been reliable and smooth.

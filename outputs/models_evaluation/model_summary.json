@@ -1,0 +1,5 @@
+{
+    "best_ml_model": "XGBoost",
+    "best_ml_score": 0.9326812559532071,
+    "best_dl_score": 0.7479345496700286
+}

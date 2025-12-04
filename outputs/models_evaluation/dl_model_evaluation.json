@@ -1,0 +1,32 @@
+{
+    "Neural Network (DL)": {
+        "time_sec": 1275.656,
+        "metrics": {
+            "train_acc": 0.9508342208022719,
+            "test_acc": 0.8814762242725337,
+            "train_f1": 0.9510944588590847,
+            "test_f1": 0.8777041072393194,
+            "classification_report": "              precision    recall  f1-score   support\n\n           0       0.93      0.95      0.94      1077\n           1       0.69      0.56      0.62       234\n           2       0.71      0.90      0.79        98\n\n    accuracy                           0.88      1409\n   macro avg       0.78      0.80      0.78      1409\nweighted avg       0.88      0.88      0.88      1409\n",
+            "confusion_matrix": [
+                [
+                    1023,
+                    48,
+                    6
+                ],
+                [
+                    73,
+                    131,
+                    30
+                ],
+                [
+                    0,
+                    10,
+                    88
+                ]
+            ],
+            "test_roc_auc": null
+        },
+        "remark": "\u2714 Good Fit",
+        "final_score": 0.7479
+    }
+}

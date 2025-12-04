@@ -1,0 +1,39 @@
+# ===== Data Handling ===== 
+numpy==1.25.2
+pandas==2.3.3
+scipy==1.15.3
+joblib==1.5.2
+
+# ===== Visualization =====
+matplotlib==3.10.7
+seaborn==0.13.2
+plotly            # (For interactive dashboards in app.py)
+shap              # SHAP Explainability for ML models
+
+# ===== NLP =====
+vaderSentiment==3.3.2
+nltk==3.9.1
+transformers==4.44.2
+
+# ===== Machine Learning =====
+scikit-learn==1.7.2
+xgboost==3.1.0
+
+# ===== Deep Learning =====
+tensorflow==2.14.0
+keras==2.14.0
+
+# WEB APP (Streamlit)
+streamlit
+streamlit-option-menu     # sidebar navigation
+streamlit-authenticator   # login + role-based access
+streamlit-shap            # SHAP integration with Streamlit
+
+#  UTILITIES
+python-dotenv      # for .env files (API keys / paths)
+Pillow             # image support
+openpyxl           # batch prediction (Excel/XLSX input)
+reportlab          # PDF generation
+
+# telco_env\Scripts\activate
+# streamlit run app.py

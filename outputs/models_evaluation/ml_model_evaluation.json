@@ -1,0 +1,82 @@
+{
+    "Logistic Regression": {
+        "best_params": {
+            "C": 10
+        },
+        "time_sec": 9.892,
+        "metrics": {
+            "train_acc": 0.8633297834575789,
+            "test_acc": 0.8573456352022711,
+            "train_f1": 0.8666854337658352,
+            "test_f1": 0.8618021315739222,
+            "classification_report": "              precision    recall  f1-score   support\n\n           0       0.94      0.86      0.90      1035\n           1       0.69      0.85      0.76       374\n\n    accuracy                           0.86      1409\n   macro avg       0.81      0.86      0.83      1409\nweighted avg       0.87      0.86      0.86      1409\n",
+            "confusion_matrix": [
+                [
+                    889,
+                    146
+                ],
+                [
+                    55,
+                    319
+                ]
+            ],
+            "test_roc_auc": 0.9421607378129118
+        },
+        "remark": "\u2714 Good Fit",
+        "final_score": 0.8837
+    },
+    "Random Forest": {
+        "best_params": {
+            "max_depth": null,
+            "n_estimators": 300
+        },
+        "time_sec": 13.69,
+        "metrics": {
+            "train_acc": 1.0,
+            "test_acc": 0.9091554293825408,
+            "train_f1": 1.0,
+            "test_f1": 0.906676085286439,
+            "classification_report": "              precision    recall  f1-score   support\n\n           0       0.92      0.97      0.94      1035\n           1       0.89      0.75      0.82       374\n\n    accuracy                           0.91      1409\n   macro avg       0.90      0.86      0.88      1409\nweighted avg       0.91      0.91      0.91      1409\n",
+            "confusion_matrix": [
+                [
+                    999,
+                    36
+                ],
+                [
+                    92,
+                    282
+                ]
+            ],
+            "test_roc_auc": 0.9522152471001576
+        },
+        "remark": "\u2714 Good Fit",
+        "final_score": 0.9216
+    },
+    "XGBoost": {
+        "best_params": {
+            "learning_rate": 0.1,
+            "max_depth": 5
+        },
+        "time_sec": 1.565,
+        "metrics": {
+            "train_acc": 0.9870429534966276,
+            "test_acc": 0.9176721078779276,
+            "train_f1": 0.9871036003119134,
+            "test_f1": 0.9176721078779276,
+            "classification_report": "              precision    recall  f1-score   support\n\n           0       0.94      0.94      0.94      1035\n           1       0.84      0.84      0.84       374\n\n    accuracy                           0.92      1409\n   macro avg       0.89      0.89      0.89      1409\nweighted avg       0.92      0.92      0.92      1409\n",
+            "confusion_matrix": [
+                [
+                    977,
+                    58
+                ],
+                [
+                    58,
+                    316
+                ]
+            ],
+            "test_roc_auc": 0.9677026014621923
+        },
+        "remark": "\u2714 Good Fit",
+        "final_score": 0.9327
+    }
+}
