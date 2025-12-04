@@ -21,7 +21,7 @@ ENV/
 # ALLOW models folder
 !models/
 !models/*
-
+models/.ipynb_checkpoints
 # Keep ONLY these in GitHub  
 !models/models_evaluation/*
 !models/models_visuals/*
