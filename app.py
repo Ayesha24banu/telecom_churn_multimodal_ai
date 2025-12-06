@@ -401,7 +401,8 @@ elif page == "📂 Batch Prediction":
 
     # SAMPLE CSV FORMAT DOWNLOAD
     st.markdown("📄 **Download Sample CSV Format Before Uploading:**")
-    template_path = "data/templates/telco_sample_template_batch.csv"
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    template_path = os.path.join(BASE_DIR, "data", "templates", "telco_sample_template_batch.csv")
     
     if os.path.exists(template_path):
         with open(template_path, "rb") as f:
