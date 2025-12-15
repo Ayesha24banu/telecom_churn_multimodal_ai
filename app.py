@@ -1486,7 +1486,7 @@ elif page == "ℹ Help & Info":
 
     st.write("📧 **Email:** ayesha24banu@gmail.com")
     st.write("🔗 **LinkedIn:**  https://www.linkedin.com/in/ayesha_banu_cs")
-    st.write("⭐ **GitHub:** *(Add your project repository here)*")
+    st.write("⭐ **GitHub:** https://github.com/Ayesha24banu/telecom_churn_multimodal_ai")
 
     st.sidebar.info("📌 Internship Project – InfozIT Solutions Pvt. Ltd. (2025)")
     logger.info("Displayed developer profile section")
