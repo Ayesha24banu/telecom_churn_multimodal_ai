@@ -401,7 +401,8 @@ elif page == "📂 Batch Prediction":
 
     # SAMPLE CSV FORMAT DOWNLOAD
     st.markdown("📄 **Download Sample CSV Format Before Uploading:**")
-    template_path = "data/templates/telco_sample_template_batch.csv"
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    template_path = os.path.join(BASE_DIR, "data", "templates", "telco_sample_template_batch.csv")
     
     if os.path.exists(template_path):
         with open(template_path, "rb") as f:
@@ -502,7 +503,7 @@ elif page == "📊 Business Dashboard":
         logger.info("Waiting for dataset upload for Business Dashboard.")
 
         # Download sample data (Business Dashboard Sample CSV)
-        sample_csv = r"C:\Users\ayesh\Projects\ai_customer_churn_feedback\data\templates\telco_sample_template_business_dashboard.csv"
+        sample_csv = os.path.join("data", "templates", "telco_sample_template_business_dashboard.csv")
         if os.path.exists(sample_csv):
             with open(sample_csv, "rb") as f:
                 st.download_button(
@@ -1485,7 +1486,7 @@ elif page == "ℹ Help & Info":
 
     st.write("📧 **Email:** ayesha24banu@gmail.com")
     st.write("🔗 **LinkedIn:**  https://www.linkedin.com/in/ayesha_banu_cs")
-    st.write("⭐ **GitHub:** *(Add your project repository here)*")
+    st.write("⭐ **GitHub:** https://github.com/Ayesha24banu/telecom_churn_multimodal_ai")
 
     st.sidebar.info("📌 Internship Project – InfozIT Solutions Pvt. Ltd. (2025)")
     logger.info("Displayed developer profile section")
