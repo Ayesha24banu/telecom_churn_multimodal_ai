@@ -1,10 +1,10 @@
 # 📡 Multimodal AI for Telecom Customer Churn & Sentiment Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
-![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-orange)
 ![XGBoost](https://img.shields.io/badge/ML-XGBoost-green)
 ![TensorFlow](https://img.shields.io/badge/DL-TensorFlow-red)
 ![SQLite](https://img.shields.io/badge/Database-SQLite-lightgrey)
+![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)
 ![License](https://img.shields.io/badge/license-RA--License-blue)
 
 ### 🔍 An End-to-End Multimodal AI System for **Customer Churn Prediction** & **Sentiment Analysis**
@@ -39,9 +39,9 @@ https://github.com/user-attachments/assets/744090c7-ae65-4e4f-a65d-681f89e58751
 5.  [Key Features & Capabilities](#-5-key-features--capabilities)
 6.  [Models & Performance](#-6-models--performance)
 7.  [Business Impact & Recommendations](#-7-business-impact--recommendations)
-8.  [Power BI Business Dashboard](#-8-Power-BI-Business-Dashboard-(Executive-Analytics))
+8.  [Power BI Business Dashboard](#-8-power-bi-business-dashboard-(executive-analytics))
 9.  [Project Architecture & Tech Stack](#-9-project-architecture--tech-stack)
-10.  [UI Screenshots](#️-10-ui-screenshots--streamlit-interface)
+10. [UI Screenshots](#️-10-ui-screenshots--streamlit-interface)
 11. [Installation & Setup](#-11-installation--setup)
 12. [Usage Examples](#-12-usage-examples)
 13. [Conclusion](#-13-conclusion) 
