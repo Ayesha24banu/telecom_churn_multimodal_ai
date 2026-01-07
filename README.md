@@ -18,6 +18,17 @@ Transforming Telecom CRM using Machine Learning, Deep Learning & Business Intell
 
 ---
 
+
+https://github.com/user-attachments/assets/ca3a6dcb-c24c-43f0-b3cf-62f219e7c8e9
+
+
+---
+
+
+https://github.com/user-attachments/assets/744090c7-ae65-4e4f-a65d-681f89e58751
+
+
+---
 ## 📖 Table of Contents
 1.  [Project Overview](#-1-project-overview)
 2.  [Problem Statement](#-2-problem-statement)
@@ -199,37 +210,31 @@ The insights derived from this multimodal system translate directly into actiona
 The project follows a modular structure ready for production deployment.
 
 ### ⚙ Project Workflow
-┌───────────────────────────────────────────────┐ 
-│ 🔍 User inputs Structured + Feedback Text     |
-└───────────────────────────────────────────────┘
+
+🔍 User inputs Structured + Feedback Text 
+
+                      │       
+                      ▼ 
+📌 Feature Engineering (VADER + TF-IDF + NLP)
+                     
                       │ 
                       ▼ 
-┌───────────────────────────────────────────────┐ 
-│ 📌 Feature Engineering (VADER + TF-IDF + NLP) │
-└───────────────────────────────────────────────┘ 
+🤖 ML Model → Churn Prediction (XGBoost)      
+                    
                       │ 
                       ▼ 
-┌───────────────────────────────────────────────┐
-│ 🤖 ML Model → Churn Prediction (XGBoost)      │
-└───────────────────────────────────────────────┘ 
+ 🧠 DL Model → Sentiment Analysis (CNN-BiLSTM) 
+                     
                       │ 
                       ▼ 
-┌───────────────────────────────────────────────┐ 
-│ 🧠 DL Model → Sentiment Analysis (CNN-BiLSTM) │ 
-└───────────────────────────────────────────────┘ 
+ 💾 SQLite DB → Save History (Single/Batch) 
+                     
                       │ 
                       ▼ 
-┌───────────────────────────────────────────────┐ 
-│ 💾 SQLite DB → Save History (Single/Batch)    │ 
-└───────────────────────────────────────────────┘ 
-                      │ 
-                      ▼ 
-┌───────────────────────────────────────────────┐ 
-│ 📊 Dashboards + SHAP Explainability           │ 
-│ AI Business Insights + PDF Reports            │ 
-└───────────────────────────────────────────────┘ 
+📊 Dashboards + SHAP Explainability
+   AI Business Insights + PDF Reports            
     
-**🧠 Streamlit App Architecture**
+**🧠 Streamlit App Architecture:**
 UI Pages (Streamlit):
 - Single Prediction (Customer-level)
 - Batch Prediction (CSV)
@@ -238,24 +243,28 @@ UI Pages (Streamlit):
 - History & Export (SQLite backed)
 - Admin / Model Info (for Data Scientist role)
 
-**🔁 System-Level**
+**🔁 System-Level:**
+ 
  View USER ➜ STREAMLIT FRONTEND ➜ AI ENGINE ➜ PREDICTION 
-                        │
+                       
+                        │   
                         ▼ 
+                
                  SQLITE DATABASE 
                         │ 
                         ▼ 
               DASHBOARDS + REPORTS 
   
-**⚙ Architecture Summary**
+**⚙ Architecture Summary:**
+  
   Layer What Happens 
-  🎛 UI Layer Streamlit-based user interface 
-  🔍 ML Layer XGBoost churn prediction 
-  🧠 DL Layer CNN-BiLSTM sentiment analysis 
-  🧠 NLP Layer TF-IDF + VADER feature engineering 
-  🔎 SHAP Layer Model explainability & trust 
-  💾 DB Layer SQLite history storage 
-  📊 Viz Layer Dashboards & insights
+ - 🎛 UI Layer Streamlit-based user interface
+ - 🔍 ML Layer XGBoost churn prediction
+ - 🧠 DL Layer CNN-BiLSTM sentiment analysis
+ - 🧠 NLP Layer TF-IDF + VADER feature engineering
+ - 🔎 SHAP Layer Model explainability & trust
+ - 💾 DB Layer SQLite history storage
+ -  📊 Viz Layer Dashboards & insights
 
 ---
 
@@ -349,7 +358,6 @@ The application features a **clean, interactive, and industry-ready Streamlit UI
 ### 🧭 Role-Based Access Control (RBAC) 
     > Different UI for | Role | Purpose | |------|--------| | 👤 Customer | Single prediction | | 👨‍💼 Business Manager | Batch + dashboard | | 🧠 Data Scientist | SHAP + analytics | 
    
-    <img src="assets/screenshots/role_based_access.png" alt="Role Based Access" width="600"/>
 
 ---
 
@@ -357,8 +365,8 @@ The application features a **clean, interactive, and industry-ready Streamlit UI
 
 1.  **Clone Repository**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/AI-Customer-Churn.git
-    cd AI-Customer-Churn
+    git clone https://github.com/Ayesha24banu/telecom_churn_multimodal_ai.git
+    cd telecom_churn_multimodal_ai
     ```
 
 2.  **Create & Activate Virtual Environment**
@@ -405,11 +413,11 @@ From Dashboard → Generate Report → download PDF (includes KPIs, top churn dr
 
 ## 🧾 12. Conclusion
  This project demonstrates how **AI can transform Telecom CRM systems** by combining **customer behavior (structured data)** and **feedback sentiment (unstructured text)** to **predict churn, detect dissatisfaction & suggest business actions** — just like real industry systems.
-  
-  ✔ Predicts **who is at risk** 
-  ✔ Understands **why they may churn** 
-  ✔ Suggests **data-driven retention strategies** 
-  ✔ Streamlit UI + Database + Explainability = **Industry-ready portfolio project** 
+
+- ✔ Predicts **who is at risk** 
+- ✔ Understands **why they may churn** 
+- ✔ Suggests **data-driven retention strategies** 
+- ✔ Streamlit UI + Database + Explainability = **Industry-ready portfolio project** 
   
   > 💡 **This project is not just academic — It can be deployed as a real CRM tool.** > Shows strong skills in **ML + DL + NLP + Business Analytics**, perfect for **Interviews & Job Applications.** 
 
@@ -423,7 +431,7 @@ The project is designed with future industry deployment in mind.
 -   **Cloud Hosting:** Deploy the application on platforms like **AWS**, **Render**, or **Railway**.
 -   **Authentication:** Integrate robust authentication using **Firebase** or **OAuth**.
 -   **Chatbot Integration:** Develop a **Customer Support AI Bot** leveraging the sentiment analysis model.
-- **Automated Alerts:** Implement a system to automatically flag and alert the customer support team when a customer is predicted to be at high risk of churning.
+-   **Automated Alerts:** Implement a system to automatically flag and alert the customer support team when a customer is predicted to be at high risk of churning.
 -   **Real-time Monitoring:** Connect to a **Power BI Dashboard** for real-time monitoring of churn risk and sentiment trends.
 
 ---
@@ -436,8 +444,8 @@ The project is designed with future industry deployment in mind.
 
 **Contact:**
 -   📧 Email: ayesha24banu@gmail.com
--   🔗 LinkedIn: [your link]
--   ⭐ GitHub: [your link]
+-   🔗 LinkedIn: https://www.linkedin.com/in/ayesha-banu-cs/
+-   ⭐ GitHub: https://github.com/Ayesha24banu
 
 > “Turning Data into Decisions & AI into Business Value.”
 
@@ -446,17 +454,17 @@ The project is designed with future industry deployment in mind.
 ### 🏁 Final Remark 
 
 > “This project helped me combine Machine Learning + Deep Learning + Business Thinking to solve real customer problems. I am excited to apply these skills to industry projects and full-time roles in Data Science / ML Engineering / AI Development.” 
-🙏 Thank you for viewing this project! 
-⭐ If you found it useful, don’t forget to star ⭐ the repository! 
-🚀 Open for feedback, contributions & collaborations.
+- 🙏 Thank you for viewing this project! 
+- ⭐ If you found it useful, don’t forget to star ⭐ the repository! 
+- 🚀 Open for feedback, contributions & collaborations.
 
 ---
 
 ## 📄 15. References
 
-[1] Telco Customer Churn Dataset. *Kaggle*. [https://www.kaggle.com/datasets/beatafaron/telco-customer-churn-realistic-customer-feedback]
-[2] Deep Learning for Sentiment Analysis. *Journal of Artificial Intelligence Research*. [https://www.jair.org/index.php/jair/article/view/11364]
-[3] XGBoost: A Scalable Tree Boosting System. *Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*. [https://dl.acm.org/doi/10.1145/2939672.2939785]
+ - Telco Customer Churn Dataset. *Kaggle*. [https://www.kaggle.com/datasets/beatafaron/telco-customer-churn-realistic-customer-feedback]
+ - Deep Learning for Sentiment Analysis. *Journal of Artificial Intelligence Research*. [https://www.jair.org/index.php/jair/article/view/11364]
+ - XGBoost: A Scalable Tree Boosting System. *Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining*. [https://dl.acm.org/doi/10.1145/2939672.2939785]
 
 **Key libs:** XGBoost, scikit-learn, TensorFlow/Keras, SHAP, Streamlit.
 
